@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>10e</title>
+        <style>
+            .profile{
+                width:200px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                vertical-align: top;
+                margin-right: 5px;
+            } 
+            .profile-pic{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 12px;
+            }
+            .mf-row{
+                margin-left: 8px;
+                margin-bottom: 10px;
+                display: grid;
+                grid-template-columns: 35px 1fr;
+                align-items: center;
+            }
+            
+            .mf-pic {
+                height: 28px;
+                width: 28px;
+                object-fit: cover;
+                border-radius: 14px;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+            .mf-text{
+                color: rgb(100, 100, 100);
+            }
+            button {
+                background-color: rgb(24, 119, 242);
+                color: white;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+            .name{
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 8px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .profile-grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="profile-grid">
+            <div class="profile">
+                <img src="cat.jpg" class="profile-pic">
+                <p class="name"> Oliver </p>
+                <div class="mf-row">
+                    <img src="dog2.jpg" class="mf-pic">
+                    <p class="mf-text"> 
+                        2 mutual friends
+                    </p>
+                </div>
+                <button>
+                    Add friend
+                </button>
+            </div>
+            <div class="profile">
+                <img src="cat2.jpg" class="profile-pic">
+                <p class="name">
+                    Mimi
+                </p>
+                <div class="mf-row">
+                    <img src="dog2.jpg" class="mf-pic">
+                    <p class="mf-text">
+                        2 mutual friends
+                    </p>
+                </div>
+                <button>
+                    Add friend
+                </button>
+            </div>
+            <div class="profile">
+                <img src="dog.jpg" class="profile-pic">
+                <p class="name">
+                    Rex
+                </p>
+                <div class="mf-row">
+                    <img src="dog2.jpg" class="mf-pic">
+                    <p class="mf-text">
+                        2 mutual friends
+                    </p>
+                </div>
+                <button>
+                    Add friend
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
